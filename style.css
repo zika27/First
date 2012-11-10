@@ -1,3 +1,5 @@
+@import 
+url('http://twitter.github.com/bootstrap/assets/css/bootstrap.css');
 header,
 aside,
 article,
@@ -67,19 +69,17 @@ color:#FFA07A;
   font-family: Block Regular;
 }
 
-#layout .content > aside {
-float:right;
+#layout aside {
 width:150px;
 border:1px solid #FFDAB9;
 }
-#layout .content > article {
-margin-right:150px;
+#layout article {
 padding:10px;
 }
 #layout .foto{
 float:left;
 }
-#layout .content > article > h2,h4{
+#layout article > h2,h4{
 text-align:center;
 font-family: Pompadur;
 }
@@ -92,7 +92,6 @@ padding: 5px 0 5px 10px;
 text-decoration:none;
 color: #696969;
 font-family: Block Regular;
-font-size: 1em;
 }
 
 #layout > footer{
